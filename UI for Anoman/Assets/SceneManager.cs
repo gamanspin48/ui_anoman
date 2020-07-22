@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class SceneManager : MonoBehaviour
 {   
    public Image mainImage;
+   public Sprite idleImage;
+   public Sprite selectedImage;
    public Button[] buttons;
    public static SceneManager Instance { get; private set; } // static singleton
    void Awake() {
